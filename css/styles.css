@@ -1,0 +1,78 @@
+/*global*/
+body{
+  margin: 0;
+}
+
+main{
+  background: #e6e6e6;
+}
+
+h2{
+  margin-top: 0;
+}
+
+.content-wrap{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+input{
+  background: #bfbfbf;
+  color: black;
+  border: 2px solid black;
+  font-weight: bold;
+  display: inline-block;
+}
+
+input:hover{
+  background: black;
+  color: #fff;
+}
+/*header and footer
+======================*/
+header, footer{
+  text-align: center;
+  background: #bfbfbf;
+}
+/*header*/
+.profile-img{
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: -40px;
+}
+
+.name{
+  font-size: 3em;
+  margin-bottom: -5px;
+}
+
+/*footer*/
+.social-box{
+  border: 5px solid black;
+  max-width: 350px;
+  margin: 10px auto;
+}
+.social-box h2{
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.resume-download input{
+  max-width: 350px;
+  height: 50px;
+  margin: 5px 2px;
+  font-size: 150%;
+}
+.contact-info input{
+  width: 150px;
+  height: 30px;
+  margin: 5px 2px;
+  font-size: 100%;
+  border-radius: 10px
+}
+/*main
+===========================*/
+.section-title{
+  border-bottom: 2px solid black;
+  text-align: center;
+}
